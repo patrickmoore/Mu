@@ -167,6 +167,8 @@ Latest Changes
 
  - Fixed issue with some units from iRacing not being handled correctly in i2.
 
+ - Fixed problem exporting older telemetry.
+
  - Performed major refactoring of the codebase.
 
  - Reduced memory consumption by ~40%.
