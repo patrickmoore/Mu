@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 3/12/2016
+Last update: 3/14/2016
 
 
 Overview
@@ -152,33 +152,16 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Support for the latest version of i2 Pro.
+ - Now parses several car setup options as numerics.
 
- - Added the Car Setup information into the .LDX file. This information will
-   show up as constants in i2.
- 
- - Added more information to the i2 Details panel; including the used Car
-   Setup filename used and addition weather info.
+ - Implemented first step in file i/o to be able to read any sized telemetry 
+   without memory impact. Once completed this will allow Mu to convert very
+   large (GBs) files with no impact to system memory.
+   
+ - Fixes possible softlock that was reported.
 
- - Fixed automatically enabling of telemetry that was broken with iRacing's 
-   3/8 update.
+ - Fixed several issues with parsing older telemetry.
 
- - Fixed a problem with custom team names breaking yaml parsing.
-
- - Fixed issue with some units from iRacing not being handled correctly in i2.
-
- - Fixed problem exporting older telemetry.
-
- - Performed major refactoring of the codebase.
-
- - Reduced memory consumption by ~40%.
-
- - Mu is now 64bit.
- 
- - Discontinued support for Windows XP.
-  
- - Disabled Extract Fastest Lap feature. Will reimplement in a future release.
- 
 
     
 
