@@ -80,7 +80,8 @@ Notes
   'vehicleinfo.cfg' in the same directory as the Mu executable, the import 
   directory, or the export directory.  The file is a yaml file with the 
   following format:
-  
+
+```
 ---
 Vehicles:
 - name: formulamazda
@@ -108,7 +109,7 @@ Vehicles:
 Constants:
   Minimum Laps: 2
   Acceleration of Gravity: 9.8 m/s^2
-  
+```
 
 
   Additional cars can be added on as long as the format is followed.  The car's
@@ -122,7 +123,8 @@ Constants:
   
   Units can be given in the following quantities. Usage of quantities not 
   explicitly labeled below will result in incorrect data in MoTeC:
-  
+
+```
   - Volume
 	  cc
 	  l
@@ -147,7 +149,7 @@ Constants:
       lb
       mg
       oz
-	
+```
   
 Latest Changes
 ------------------------------------------------------------------------------
