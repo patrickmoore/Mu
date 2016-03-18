@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 3/14/2016
+Last update: 3/17/2016
 
 
 Overview
@@ -154,16 +154,9 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Now parses several car setup options as numerics.
+ - Added ratios and percentages in the car setup to be tagged as numeric.
 
- - Implemented first step in file i/o to be able to read any sized telemetry 
-   without memory impact. Once completed this will allow Mu to convert very
-   large (GBs) files with no impact to system memory.
-   
- - Fixes possible softlock that was reported.
-
- - Fixed several issues with parsing older telemetry.
-
+ - Some minor code cleanup.
 
     
 
