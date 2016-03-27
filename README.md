@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 3/17/2016
+Last update: 3/25/2016
 
 
 Overview
@@ -154,9 +154,9 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Added ratios and percentages in the car setup to be tagged as numeric.
+ - Fixed issue with setups with the Corvette C6R
 
- - Some minor code cleanup.
+ - Improved logging of messages.
 
     
 
