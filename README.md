@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 3/25/2016
+Last update: 4/7/2016
 
 
 Overview
@@ -89,7 +89,7 @@ Vehicles:
     Vehicle Weight: 650 kg
     Fuel Tank Capacity: 72 l
     Vehicle Track: 1485 mm
-    Vehicle Wheelbase:: 2522 mm
+    Vehicle Wheelbase: 2522 mm
 
 - name: rt2000
   Attributes:
@@ -154,7 +154,7 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Fixed issue with setups with the Corvette C6R
+ - Fixed issue deleting telemetry
 
  - Improved logging of messages.
 
