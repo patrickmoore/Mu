@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 4/9/2016
+Last update: 4/14/2016
 
 
 Overview
@@ -154,9 +154,7 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Fixed an issue with unicode paths
-
- - Installer should now prompt for elevated privileges
+ - Fixed problem with deleting telemetry files that should not be deleted
     
 
 Acknowledgements
