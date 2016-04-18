@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)
-Last update: 4/14/2016
+Last update: 4/18/2016
 
 
 Overview
@@ -154,7 +154,8 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Fixed problem with deleting telemetry files that should not be deleted
+ - Fixed issue with a floating point error that could cause a lap to not be
+   recorded.
     
 
 Acknowledgements
