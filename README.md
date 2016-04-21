@@ -1,5 +1,5 @@
 # Mu - Telemetry Exporter for iRacing
-Developed by Patrick Moore (patrickwmoore@gmail.com)
+Developed by Patrick Moore (patrickwmoore@gmail.com)  
 Last update: 4/18/2016
 
 
@@ -42,17 +42,15 @@ Notes
 - GPS Telemetry data is exported in 3 channels (Degrees, Minutes, Seconds), 
   and must be combined by MoTeC Maths into the channels GPS Latitude and 
   GPS Longitude.  The Math formula you should use is as follows:
-
-  GPS Latitude - Quantity: Angle  Display Unit: degree  Decimal: 8 
-                 Result Unit: Degree
-				 Expression: 'Latitude Degrees' + 'Latitude Minutes' / 60.0 
-				             + 'Latitude Minute - fraction' / 3600
+```
+  GPS Latitude - Quantity: Angle  Display Unit: degree  Decimal: 8  
+		 Result Unit: Degree  
+		 Expression: 'Latitude Degrees' + 'Latitude Minutes' / 60.0 + 'Latitude Minute - fraction' / 3600.0  
   
   GPS Longitude - Quantity: Angle  Display Unit: degree  Decimal: 8 
-                  Result Unit: Degree
-			      Expression: 'Longitude Degrees' + 'Longitude Minutes' / 60.0 
-				  + 'Longitude Minute - fraction' / 3600.0
-
+		  Result Unit: Degree  
+		  Expression: 'Longitude Degrees' + 'Longitude Minutes' / 60.0 + 'Longitude Minute - fraction' / 3600.0  
+```
 - Currently Tire information is only exported for cars that use iRacing's new
   tire model. 
   
