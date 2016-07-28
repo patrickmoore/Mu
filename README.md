@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)  
-Last update: 4/21/2016
+Last update: 7/28/2016
 
 
 Overview
@@ -13,7 +13,7 @@ iRacing. Please do not ask them for support.
 Mu has the following features:
  - Can export to MoTeC
  - Can export to CSV
- - Can export to Metric or Imperial
+ - Can export Metric or Imperial units
  - Automatically turns on telemetry capture in iRacing
  - Saves a copy of the setup used to generate the telemetry
 
@@ -152,8 +152,14 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Fixed issue with a floating point error that could cause a lap to not be
-   recorded.
+ - Mu will now be able to export telemetry files of any size without impact
+   to memory (at the expense of export speed).
+
+ - Fixed issue with telemetry not releasing handle to the import file causing
+   errors when reexporting and deleting.
+
+ - Fixed problem with the installer failing installation on the vcredist packages.
+
     
 
 Acknowledgements
