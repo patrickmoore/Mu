@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)  
-Last update: 7/28/2016
+Last update: 7/30/2016
 
 
 Overview
@@ -152,14 +152,7 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Mu will now be able to export telemetry files of any size without impact
-   to memory (at the expense of export speed).
-
- - Fixed issue with telemetry not releasing handle to the import file causing
-   errors when reexporting and deleting.
-
- - Fixed problem with the installer failing installation on the vcredist packages.
-
+- Added validation checks to identify malformed telemetry.
     
 
 Acknowledgements
