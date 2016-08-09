@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)  
-Last update: 7/30/2016
+Last update: 8/9/2016
 
 
 Overview
@@ -152,7 +152,7 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
-- Added validation checks to identify malformed telemetry.
+- Fixed issue with stints not being correctly written out.
     
 
 Acknowledgements
