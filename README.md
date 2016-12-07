@@ -1,6 +1,6 @@
 # Mu - Telemetry Exporter for iRacing
 Developed by Patrick Moore (patrickwmoore@gmail.com)  
-Last update: 11/4/2016
+Last update: 12/7/2016
 
 
 Overview
@@ -152,10 +152,10 @@ Constants:
 Latest Changes
 ------------------------------------------------------------------------------
 
- - Added sanitization of malformed yaml from iRacing.
+ - Preliminary support for high resolution iRacing data.
 
- - Reworked installer to try and fix updating issues.
-    
+ - Reduced Beacon channel from 60Hz to 5Hz.
+
 
 Acknowledgements
 ------------------------------------------------------------------------------
