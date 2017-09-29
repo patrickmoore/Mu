@@ -26,6 +26,11 @@ be analyzed by the software of your choice.
 When Mu is run in conjunction with iRacing, Mu can automatically turn on
 Telemetry Capture and save the setup that was used to generate the telemetry. 
 
+Mu has a user interface (UI) that will appear when launched. Additionally, it
+will continue to run in the background if the UI is closed. Mu is accessible
+from the Windows system tray, and right-clicking will display a dialogue with
+options for exiting the program, displaying the UI, and other functions.
+
 
 GPS
 ------------------------------------------------------------------------------
