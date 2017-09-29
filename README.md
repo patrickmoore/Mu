@@ -1,7 +1,8 @@
 # Mu - Telemetry Exporter for iRacing
-Developed by Patrick Moore (patrickwmoore@gmail.com)
-Version 1.8.2.0
-Last update: 12/20/2016
+###### Developed by Patrick Moore (patrickwmoore@gmail.com)
+###### Version 1.9.0.0
+###### Last update: 9/29/2017
+
 
 Overview
 ------------------------------------------------------------------------------
@@ -92,7 +93,8 @@ explicitly labeled below will result in incorrect data in MoTeC:
   oz
 
 
-####Vehicle Information
+### Vehicle Information
+
 Additional vehicle information can be exported into MoTeC that can be used in
 Maths or just general information.  An example of a vehicle entry is as follows
 
@@ -109,7 +111,8 @@ complete example of how to add more vehicles and attributes.  Only the values
 for the vehicle used in generating the telemetry will be included in the export.
 
 
-####Constants
+### Constants
+
 Constants are similar to vehicle information except that the values are exported
 for all telemetry.
 
@@ -120,7 +123,8 @@ for all telemetry.
 ```
 
 
-####Filtering Channels
+### Filtering Channels
+
 Channels can be filtered by adding a ChannelFilter entry and listing the name
 of each channel to be filtered.  Note that if you filter a channel needed by
 Motec, you could end up with missing / erronous telemetry.
@@ -132,7 +136,8 @@ Motec, you could end up with missing / erronous telemetry.
 ```
 
 
-####Sample vehicleinfo.cfg
+### Sample vehicleinfo.cfg
+
 Below is a sample configuration used by Mu.  The following can be cut-n-pasted
 to vehicleinfo.cfg
 
