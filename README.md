@@ -1,7 +1,7 @@
 # Mu - Telemetry Exporter for iRacing
 ###### Developed by Patrick Moore (patrickwmoore@gmail.com)
-###### Version 1.9.0.0
-###### Last update: 9/29/2017
+###### Version 1.9.1.0
+###### Last update: 10/2/2017
 
 
 Overview
